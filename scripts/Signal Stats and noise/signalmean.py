@@ -1,6 +1,5 @@
 # Signal mean algorithm from scratch
 import mysignals as sig
-
 _mean = 0.0
 
 def calculate_signal_mean(signal_arr):
@@ -11,4 +10,6 @@ def calculate_signal_mean(signal_arr):
     return _mean
 
 
-mean_sig = calculate_signal_mean(sig.)
+mean_sig = calculate_signal_mean(sig.InputSignal_1kHz_15kHz)
+print("The computed mean of the signal is :", mean_sig)
+
